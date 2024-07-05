@@ -7,7 +7,7 @@ export default function Sidebar() {
     <div className="w-[18%] min-h-[100vh] border-[#a9a9a9] border-[1.5px] border-solid border-t-0 text-[max(1vw,10px)]">
       <div className="flex flex-col gap-5 pt-[50px] pl-[20%]">
         <NavLink
-          to="/add"
+          to="/"
           className="flex items-center gap-3 border-[1px] border-solid border-[#a9a9a9] border-r-0 p-[8px_10px] rounded-[3px_0px_0px_3px] cursor-pointer"
         >
           <img src={assets.add_icon} alt="" />
