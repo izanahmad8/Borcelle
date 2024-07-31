@@ -46,7 +46,6 @@ const listFood = async (req, res) => {
 const removeFood = async (req, res) => {
   try {
     const food = await foodModel.findById(req.body.id);
-    console.log(food);
     if (!food) {
       return res.json({ success: false, message: "Food not found" });
     }
