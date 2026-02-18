@@ -56,7 +56,7 @@ export default function PlaceOrder() {
           paymentData,
           {
             headers: { token },
-          }
+          },
         );
         if (verifyResponse.data.success) {
           navigate("/myorder");
